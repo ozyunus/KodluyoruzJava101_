@@ -19,10 +19,19 @@ public class ManavKasa {
         double patlican = input.nextDouble();
 
         armut = armut * 2.14;
+        System.out.println("Armut "+ armut );
+
         elma  = elma * 3.67;
+        System.out.println("Elma "+ elma );
+
         domates = domates * 1.11;
+        System.out.println("Domates "+ domates );
+
         muz = muz * 0.95;
+        System.out.println("Muz "+ muz );
+
         patlican = patlican * 5.0;
+        System.out.println("Patlıcan "+ patlican );
 
         double tutar = armut + elma + domates + muz + patlican;
 
