@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class BurcBulma {
     public static void main(String[] args) {
         int month, day;
+        String burc="";
         Scanner input = new Scanner(System.in);
         System.out.println("Lütfen Doğduğunuz Ayı giriniz :");
         month = input.nextInt();
@@ -19,78 +20,80 @@ public class BurcBulma {
 
         if (month == 1) {
             if (day <= 21) {
-                System.out.println("Oğlak Burcusunuz.");
+                burc = "Oğlak";
             } else {
-                System.out.println("Kova Burcusunuz.");
+                burc = "Kova";
             }
         } else if (month == 2) {
             if (day <= 19) {
-                System.out.println("Kova Burcusunuz.");
+                burc = "Kova";
             } else {
-                System.out.println("Balık Burcusunuz.");
+                burc = "Balık";
             }
         } else if (month == 3) {
             if (day <= 20) {
-                System.out.println("Balık Burcusunuz.");
+                burc = "Balık";
             } else {
-                System.out.println("Koç Burcusunuz.");
+                burc = "Koç";
             }
         } else if (month == 4) {
             if (day <= 20) {
-                System.out.println("Koç Burcusunuz.");
+                burc = "Koç";
             } else {
-                System.out.println("Boğa Burcusunuz.");
+                burc = "Boğa";
             }
         } else if (month == 5) {
             if (day <= 22) {
-                System.out.println("İkizler Burcusunuz.");
+                burc = "İkizler";
             } else {
-                System.out.println("Boğa Burcusunuz.");
+                burc = "Boğa";
             }
         } else if (month == 6) {
             if (day <= 22) {
-                System.out.println("İkizler Burcusunuz.");
+                burc = "İkizler";
             } else {
-                System.out.println("Yengeç Burcusunuz.");
+                burc = "Yengeç";
             }
         } else if (month == 7) {
             if (day <= 22) {
-                System.out.println("Yengeç Burcusunuz.");
+                burc = "Yengeç";
             } else {
-                System.out.println("Aslan Burcusunuz.");
+                burc = "Aslan";
             }
         } else if (month == 8) {
             if (day <= 22) {
-                System.out.println("Aslan Burcusunuz.");
+                burc = "Aslan";
             } else {
-                System.out.println("Başak Burcusunuz.");
+                burc = "Başak";
             }
         } else if (month == 9) {
             if (day <= 22) {
-                System.out.println("Başak Burcusunuz.");
+                burc = "Başak";
             } else {
-                System.out.println("Terazi Burcusunuz.");
+                burc = "Terazi";
             }
         } else if (month == 10) {
             if (day <= 22) {
-                System.out.println("Terazi Burcusunuz.");
+                burc = "Terazi";
             } else {
-                System.out.println("Akrep Burcusunuz.");
+                burc = "Akrep";
             }
         } else if (month == 11) {
             if (day <= 21) {
-                System.out.println("Akrep Burcusunuz.");
+                burc = "Akrep";
             } else {
-                System.out.println("Yay Burcusunuz.");
+                burc = "Yay";
             }
         } else if (month == 12) {
             if (day <= 21) {
-                System.out.println("Yay Burcusunuz.");
+                burc = "Yay";
             } else {
-                System.out.println("Oğlak Burcusunuz.");
+                burc = "Oğlak";
             }
         }
+        System.out.println("Merhaba, burcunuz : "+ burc);
 
 
     }
+
 }
